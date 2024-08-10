@@ -31,3 +31,36 @@ body {
     text-wrap: balance;
   }
 }
+.question-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.question-box {
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-box:hover {
+  background-color: #e0e0e0;
+}
+
+.user {
+  text-align: right;
+  color: blue;
+  margin: 5px;
+}
+
+.bot {
+  text-align: left;
+  color: green;
+  margin: 5px;
+}
+
+
